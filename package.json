@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Latros/GPS-Tracker/issues"
   },
-  "homepage": "https://github.com/Latros/GPS-Tracker"
+  "homepage": "https://github.com/Latros/GPS-Tracker",
+  "dependencies": {
+    "express": "^4.12.2"
+  }
 }

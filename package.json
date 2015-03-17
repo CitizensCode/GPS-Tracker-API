@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Latros/GPS-Tracker",
   "dependencies": {
-    "express": "^4.12.2"
+    "express": "^4.12.2",
+    "socket.io": "^1.3.5"
   }
 }

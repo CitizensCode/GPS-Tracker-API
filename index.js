@@ -11,7 +11,6 @@ io.on('connection', function (socket) {
   });
 });
 
-
 // Loop through coords array and emit a new bus coord every 1000ms  var i = 0;
 var coords = [{
   lat: 45.944921,

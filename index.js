@@ -34,6 +34,7 @@
     console.log(req.body);
     console.log('Received post request of location from Tracker! Emitting to all sockets...');
     io.emit('bus coord', req.body);
+    res.send('Thanks!');
   });
 
   http.listen(process.env.PORT, function () {

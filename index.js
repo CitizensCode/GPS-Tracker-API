@@ -36,7 +36,7 @@
     io.emit('bus coord', req.body);
   });
 
-  http.listen(1338, function () {
-    console.log('API server listening on *:1338');
+  http.listen(process.env.PORT, function () {
+    console.log('API server listening on *:' + process.env.PORT);
   });
 })();
